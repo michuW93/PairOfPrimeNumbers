@@ -8,7 +8,6 @@ public class Main {
         int numberOfAttempts = in.nextInt();
         for (int i = 0; i < numberOfAttempts; i++) {
             int numberToCalculate = in.nextInt();
-            System.out.println(numberToCalculate);
             calculateSumOfTwoPrimeNumbers(numberToCalculate);
         }
     }
